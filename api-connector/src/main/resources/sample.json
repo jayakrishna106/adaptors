@@ -1,0 +1,14 @@
+[{
+  "method": "get",
+  "path": "/health",
+  "consumes": "application/json",
+  "produces": "application/json",
+  "responseMessage": "Success",
+  "responseCode": "200",
+  "exceptions": [
+    {
+      "exception": "Authentication Exception",
+      "responseCode": "404"
+    }],
+  "to": "direct:collect"
+}]

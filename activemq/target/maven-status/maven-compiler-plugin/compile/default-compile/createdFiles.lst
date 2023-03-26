@@ -1,0 +1,3 @@
+com/connectors/AmqpConfig.class
+com/connectors/SampleAutowiredAmqpRoute.class
+com/connectors/SampleAmqApplication.class
